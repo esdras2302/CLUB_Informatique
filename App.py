@@ -7,7 +7,7 @@ st.title("Table de Multiplication")
 st.write("Choisissez un nombre pour afficher sa table de multiplication de 1 à 10.")
 
 # Entrée utilisateur
-number = st.number_input("Entrez un nombre", min_value=1, max_value=-1, value=1, step=1)
+number = st.number_input("Entrez un nombre", min_value=1, max_value=100, value=1, step=1)
 
 # Afficher la table de multiplication
 st.header(f"Table de multiplication de {number}")
